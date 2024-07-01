@@ -1,10 +1,10 @@
-//David Cyril
+nle chopa
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 
 //=======[dependencies]====================//
-global.SESSION_ID = process.env.SESSION_ID || "";
+global.SESSION_ID "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOWZmZXIiLCJkYXRhIjoiTUF2NE10VzV3T0EzU2dJMEUxS1RUaWtwalBwbjVhMVhJKzVQc1hMYnUyZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSVNtRHZneExkUUhQa3BheWswVEJDeHQ3eUVYeXgrZkFnR1BrWHBvMUdYZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0QnF4RUEvell6dWxlQjJVVHB3YTA5WE5YR0tCT1pyN1JrR1praThuK1ZvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtb2dnQUVVSCtJQ2RBRU11TjdGVHlPbGdyOWVaOUhMOVRFMVNSODhVVldVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndIL0NETjFONkRyVjA1Q0kwb0xRMVY0MjlyWnlIZzBReEhwV0YwMXJtMlE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBubjBHaERYQ3FLWXlHM0l5SDZieXJHeUpUbUFVVkFzMDhUNC9GVzlPVVE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0pEOTczMG9qZ29oNURZb2FRb0E0MkF4TGRlbXEyRVQrVHVmNldMS25uZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTkNVZm13enZMamF0aFZzVHVrd2JWSDYvZVFSa0N6dlR3TE5pai9CSlhGbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ikd5U0pWaUJzWjNES013Z0FsSERUbjlvQXBBRFRVQm44b0hYeFFoako4czlIRmZWaDhyTnlKbm1uYkR1aSsyUnBRY1BlTjB5NTM0RFpRU0x2Vlo0TUFnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OSwiYWR2U2VjcmV0S2V5IjoiQTJ5NG5TV3lEQzB3VHc0cng4cXI0SGRvYzA1OXYwb3FYYzcxWTMrdE5zbz0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoiY1MtQUhvS2tRZ2VfdWpFWVFHOWFqZyIsInBob25lSWQiOiJhOGVjMGYyYS0xY2JhLTRlYWEtYjg5ZS04MDA0YzMwMzVhMmUiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUkZNWUd0Q2Yyb2NoajRKOXAzVWJDUDZxSzU0PSJ9LCJyZWdpc3RlcmVkIjp0cnVlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJCeHpXYkJLcVVZc2tRcmhFTTlYYTZKZWp2WT0ifSwicmVnaXN0cmF0aW9uIjp7fSwicGFpcmluZ0NvZGUiOiJGSFBKUzMxTSIsIm1lIjp7ImlkIjoiMjU0MTAyOTI2NTc2OjEyQHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNOYkgrck1DRU1pVGhMUUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJUR1pnV0tkeXlSeE95bHRMZW9IRjdEaEkyK0ZieHd6ODhSWEVQUFRuUkM4PSIsImFjY291bnRTaWduYXR1cmUiOiI2TVNueFRVaU9NR2pTMWdHM2tNcUxaY0lZaEVtQ3BjdXdsb3VQZHpUa2Npa1dkajNuQThCZTMvVzV5aHc5Y0xlZ3NtZTdPTEZRb3g4dGEzeGNoZ3hDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiMkpPcmFpL3MxdUZvME84QWtpSVpJUWwvZnRZNTdyc0JqSEtLVThPWVJnTCt2UitRVm94YjBVR2ZKdDBZTkxtUzN5ZldoeG1xaTJxYUJodHBMTVFRQUE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTQxMDI5MjY1NzY6MTJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVXhtWUZpbmNza2NUc3BiUzNxQnhldzRTTnZoVzhjTS9QRVZ4RHowNTBRdiJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTczMjY5NH0";
 global.MONGODB = process.env.MONGODB_URI || "";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "254102926576";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -72,7 +72,7 @@ global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from = process.env.READ_STATUS_FROM || "null";
-global.api_smd = "https://api-smd-1.vercel.app";
+global.api_smd = "https://api.maher-zubair.tech";
 global.scan = "https://mainv2-f66485a0f702.herokuapp.com/";
 global.isMongodb = false;
 let file = require.resolve(__filename);
